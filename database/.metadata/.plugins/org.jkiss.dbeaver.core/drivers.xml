@@ -5,7 +5,14 @@
 	<provider id="jaybird"/>
 	<provider id="generic"/>
 	<provider id="mssql"/>
-	<provider id="mysql"/>
+	<provider id="mysql">
+		<driver id="mysql5" custom="false" embedded="false" name="MySQL" class="com.mysql.jdbc.Driver" url="jdbc:mysql://{host}[:{port}]/[{database}]" port="3306" description="MySQL standard driver">
+			<library type="jar" path="maven:/mysql:mysql-connector-java:RELEASE" custom="false" version="8.0.11">
+				<file id="mysql:mysql-connector-java" version="8.0.11" path="${drivers_home}\maven\maven-central\mysql\mysql-connector-java-8.0.11.jar"/>
+				<file id="com.google.protobuf:protobuf-java" version="2.6.0" path="${drivers_home}\maven\maven-central\com.google.protobuf\protobuf-java-2.6.0.jar"/>
+			</library>
+		</driver>
+	</provider>
 	<provider id="oracle"/>
 	<provider id="postgresql">
 		<driver id="postgres-jdbc" custom="false" embedded="false" name="PostgreSQL" class="org.postgresql.Driver" url="jdbc:postgresql://{host}[:{port}]/[{database}]" port="5432" description="PostgreSQL standard driver">
@@ -18,6 +25,7 @@
 			<library type="jar" path="maven:/net.postgis:postgis-jdbc-jtsparser:RELEASE" custom="false" version="2.2.1">
 				<file id="net.postgis:postgis-jdbc-jtsparser" version="2.2.1" path="${drivers_home}\maven\maven-central\net.postgis\postgis-jdbc-jtsparser-2.2.1.jar"/>
 			</library>
+			<clientHome id="C:\PostgreSQL\pg10\bin"/>
 		</driver>
 	</provider>
 	<provider id="vertica"/>
