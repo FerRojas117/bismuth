@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data-sources>
 	<data-source id="postgres-jdbc-163ef7a9afc-674e8227e6e1aa56" provider="postgresql" driver="postgres-jdbc" name="bismuth - PostgreSQL" save-password="true" show-system-objects="true" read-only="false">
-		<connection host="localhost" port="5432" server="" database="bismuth" url="jdbc:postgresql://localhost:5432/bismuth" user="bismuth" password="BBEFdnRtVwNl8w==" home="C:\PostgreSQL\pg10\bin" type="dev">
+		<connection host="192.168.1.67" port="5432" server="" database="bismuth" url="jdbc:postgresql://192.168.1.67:5432/bismuth" user="bismuth" password="BBEFdnRtVwNl8w==" home="C:\PostgreSQL\pg10\bin" type="dev">
 			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
 			<provider-property name="@dbeaver-switch-db-on-expand@" value="true"/>
 			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
@@ -13,25 +13,6 @@
 				<property name="port" value="22"/>
 				<property name="implementation" value="jsch"/>
 				<property name="authType" value="PASSWORD"/>
-			</network-handler>
-		</connection>
-	</data-source>
-	<data-source id="mysql5-163f4af5124-198f01fbac03522" provider="mysql" driver="mysql5" name="MySQL - localhost" save-password="true" show-system-objects="true" read-only="false">
-		<connection host="localhost" port="3306" server="" database="" url="jdbc:mysql://localhost:3306/" user="root" password="Hg0IIUJPQRll8w==" type="dev">
-			<property name="connectTimeout" value="20000"/>
-			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
-				<property name="socks-port" value="1080"/>
-			</network-handler>
-			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
-				<property name="sshConnectTimeout" value="10000"/>
-				<property name="port" value="22"/>
-				<property name="implementation" value="jsch"/>
-				<property name="authType" value="PASSWORD"/>
-			</network-handler>
-			<network-handler type="CONFIG" id="mysql_ssl" enabled="false" save-password="false">
-				<property name="ssl.public.key.retrieve" value="false"/>
-				<property name="ssl.verify.server" value="true"/>
-				<property name="ssl.require" value="false"/>
 			</network-handler>
 		</connection>
 	</data-source>
