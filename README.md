@@ -1,5 +1,5 @@
 # Bismuth project
-Bismuth project is the code name to a new system to improve the process and the management.
+Bismuth project is the code name to a new system to improve processes and the management.
 
 ## Database 
 PostgreSQL is the DBMS used in bismuth project.
