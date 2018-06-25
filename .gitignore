@@ -1,3 +1,5 @@
 /.metadata/
 /RemoteSystemsTempFiles
 .directory
+database/bismuth/.dbeaver-data-sources.xml
+database/bismuth/.project
