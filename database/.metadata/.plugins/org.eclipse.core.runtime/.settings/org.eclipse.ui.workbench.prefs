@@ -1,9 +1,0 @@
-//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
-//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
-ColorsAndFontsPreferencePage.expandedCategories=Torg.jkiss.dbeaver.ui.presentation.erd\tTorg.eclipse.egit.ui.GitTheme
-ColorsAndFontsPreferencePage.selectedElement=Corg.jkiss.dbeaver.erd.diagram.entity.regular.background
-PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
-eclipse.preferences.version=1
-org.jkiss.dbeaver.erd.diagram.background=238,238,236
-org.jkiss.dbeaver.erd.diagram.entity.primary.background=32,74,135
-org.jkiss.dbeaver.erd.diagram.entity.regular.background=52,101,164
