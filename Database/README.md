@@ -18,6 +18,7 @@ Verify the line:
 
 `host    all             all             192.168.1.0/24          trust`
 
-In 
+or your localhost in 
 
 `sudo nano /var/lib/pgsql/10/data/pg_hba.conf`
+
