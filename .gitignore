@@ -3,4 +3,5 @@
 .directory
 database/bismuth/.dbeaver-data-sources.xml
 database/bismuth/.project
+ProjectBismuto/node_modules
 .DS_Store
